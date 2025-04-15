@@ -1,9 +1,5 @@
-# __init__.py
+# 从你的节点文件中导入类和映射
+from .encrypt_save_node import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
-# Import classes and mappings from the node file
-from .encrypt_decrypt_nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
-
-# Export the imported mappings for ComfyUI to load
+# 将导入的映射导出，供 ComfyUI 加载
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
-
-print("--- Loading Custom Encrypt/Decrypt Nodes ---")
