@@ -174,7 +174,7 @@ class EncryptSaveImage:
             "required": {
                 "images": ("IMAGE", ),       # 输入是图像张量
                 "password": ("STRING", {"multiline": False, "default": "123"}), # 密码输入
-                "block_size": ("INT", {"default": 64, "min": 8, "max": 256, "step": 8}), # 新增：块大小
+                "block_size": ("INT", {"default": 8, "min": 8, "max": 256, "step": 8}), # 新增：块大小
                 "filename_prefix": ("STRING", {"default": "ComfyUI_Encrypted"}), # 文件名前缀
             },
             "hidden": {"prompt": "PROMPT", "extra_pnginfo": "EXTRA_PNGINFO"}, # 隐藏输入，用于获取工作流信息
