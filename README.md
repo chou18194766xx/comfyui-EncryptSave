@@ -3,4 +3,4 @@ comfyui image encrypt and save.
 
 comfyui 图片加密插件。
 
-解密程序下载：https://drive.google.com/file/d/1Hq4Hba3y1HQD7nv6yfB1WPcWfWoM4S4_/view
+解密程序下载：https://drive.google.com/file/d/11ohOKUzXe_o2nx-SVs_6TCQxSG62pNJA/view
